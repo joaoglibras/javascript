@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 004 - Aula 06</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-weight: normal;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`<h1>Olá, <strong>${nome}</strong>.</h1>`)
+        document.write('<p>Sobre o seu nome:</p>')
+        document.write(`<p>Ele tem <strong>${nome.length}</strong> caracteres.</p>`)
+        document.write(`<p>Em maiúsculo: <strong>${nome.toUpperCase()}</strong>.</p>`)
+        document.write(`<p>Em minúsculo: <strong>${nome.toLowerCase()}</strong>.</p>`)
+    </script>
+</body>
+</html>
